@@ -21,3 +21,131 @@
  Herschel Krustofski	45                   YES                     Hyman and Rachel Krustofski
  
  */
+
+// Part 1: Store data for each player separately in dictionaries.
+
+let firstPlayer: [String: Any] = [
+    "Name": "Joe Smith",
+    "Height": 42, "Experience": true,
+    "Guardians": "Jim and Jan Smith"
+]
+
+let secondPlayer: [String: Any] = [
+    "Name": "Jill Tanner",
+    "Height": 36, "Experience": true,
+    "Guardians": "Clara Tanner"
+]
+
+let thirdPlayer: [String: Any] = [
+    "Name": "Bill Bon",
+    "Height": 43,
+    "Experience": true,
+    "Guardians": "Sara and Jenny Bon"
+]
+
+let fourthPlayer: [String: Any] = [
+    "Name": "Eva Gordon",
+    "Height": 45,
+    "Experience": false,
+    "Guardians": "Wendy and Mike Gordon"
+]
+
+let fifthPlayer: [String: Any] = [
+    "Name": "Matt Gill",
+    "Height": 40,
+    "Experience": false,
+    "Guardians":
+    "Charles and Sylvia Gill"
+]
+
+let sixthPlayer: [String: Any] = [
+    "Name": "Kimmy Stein",
+    "Height": 41,
+    "Experience": false,
+    "Guardians": "Bill and Hillary Stein"
+]
+
+let seventhPlayer: [String: Any] = [
+    "Name": "Sammy Adams",
+    "Height": 45,
+    "Experience": false,
+    "Guardians": "Jeff Adams"
+]
+
+let eighthPlayer: [String: Any] = [
+    "Name": "Karl Saygan",
+    "Height": 42,
+    "Experience": true,
+    "Guardians": "Heather Bledsoe"
+]
+
+let ninethPlayer: [String: Any] = [
+    "Name": "Suzane Greenberg",
+    "Height": 44,
+    "Experience": true,
+    "Guardians": "Henrietta Dumas"
+]
+
+let tenthPlayer: [String: Any] = [
+    "Name": "Sal Dali",
+    "Height": 41,
+    "Experience": false,
+    "Guardians": "Gala Dali"
+]
+
+let eleventhPlayer: [String: Any] = [
+    "Name": "Joe Kavalier",
+    "Height": 39,
+    "Experience": false,
+    "Guardians": "Sam and Elaine Kavalier"
+]
+
+let twelvethPlayer: [String: Any] = [
+    "Name": "Ben Finkelstein",
+    "Height": 44,
+    "Experience": false,
+    "Guardians": "Aaron and Jill Finkelstein"
+]
+
+let thirteenthPlayer: [String: Any] = [
+    "Name": "Diego Soto",
+    "Height": 41,
+    "Experience": true,
+    "Guardians": "Robin and Sarika Soto"
+]
+
+let fourteenthPlayer: [String: Any] = [
+    "Name": "Chloe Alaska",
+    "Height": 47,
+    "Experience": false,
+    "Guardians": "David and Jamie Alaska"
+]
+
+let fifteenthPlayer: [String: Any] = [
+    "Name": "Arnold Willis",
+    "Height": 43,
+    "Experience": false,
+    "Guardians": "Claire Willis"
+]
+
+let sixteenthPlayer: [String: Any] = [
+    "Name": "Phillip Helm",
+    "Height": 44,
+    "Experience": true,
+    "Guardians": "Thomas Helm and Eva Jones"
+]
+
+let seventeenthPlayer: [String: Any] = [
+    "Name": "Les Clay",
+    "Height": 42,
+    "Experience": true,
+    "Guardians": "Wynonna Brown"
+]
+
+let eighteenthPlayer: [String: Any] = [
+    "Name": "Herschel Krustofski",
+    "Height": 45,
+    "Experience": true,
+    "Guardians": "Hyman and Rachel Krustofski"
+]
+
