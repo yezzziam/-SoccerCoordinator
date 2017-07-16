@@ -149,8 +149,13 @@ let eighteenthPlayer: [String: Any] = [
     "Guardians": "Hyman and Rachel Krustofski"
 ]
 
+// Part 1: Combined all players info into one dictionary
 
 let players: [Any] = [firstPlayer, secondPlayer, thirdPlayer, fourthPlayer, fifthPlayer, sixthPlayer, seventhPlayer, eighthPlayer, ninethPlayer, tenthPlayer, eleventhPlayer, twelvethPlayer, thirteenthPlayer, fourteenthPlayer, fifteenthPlayer, sixteenthPlayer, seventeenthPlayer, eighteenthPlayer]
 
 
-// Part 2
+// Part 2: Adding empty dictionaries for each team.
+
+var teamSharks = [String:Any]()
+var teamDragons = [String:Any]()
+var teamRaptors = [String:Any]()
