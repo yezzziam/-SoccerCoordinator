@@ -149,3 +149,8 @@ let eighteenthPlayer: [String: Any] = [
     "Guardians": "Hyman and Rachel Krustofski"
 ]
 
+
+let players: [Any] = [firstPlayer, secondPlayer, thirdPlayer, fourthPlayer, fifthPlayer, sixthPlayer, seventhPlayer, eighthPlayer, ninethPlayer, tenthPlayer, eleventhPlayer, twelvethPlayer, thirteenthPlayer, fourteenthPlayer, fifteenthPlayer, sixteenthPlayer, seventeenthPlayer, eighteenthPlayer]
+
+
+// Part 2
