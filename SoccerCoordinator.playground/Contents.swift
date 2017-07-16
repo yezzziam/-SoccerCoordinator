@@ -151,11 +151,26 @@ let eighteenthPlayer: [String: Any] = [
 
 // Part 1: Combined all players info into one dictionary
 
-let players: [Any] = [firstPlayer, secondPlayer, thirdPlayer, fourthPlayer, fifthPlayer, sixthPlayer, seventhPlayer, eighthPlayer, ninethPlayer, tenthPlayer, eleventhPlayer, twelvethPlayer, thirteenthPlayer, fourteenthPlayer, fifteenthPlayer, sixteenthPlayer, seventeenthPlayer, eighteenthPlayer]
+let players = [firstPlayer, secondPlayer, thirdPlayer, fourthPlayer, fifthPlayer, sixthPlayer, seventhPlayer, eighthPlayer, ninethPlayer, tenthPlayer, eleventhPlayer, twelvethPlayer, thirteenthPlayer, fourteenthPlayer, fifteenthPlayer, sixteenthPlayer, seventeenthPlayer, eighteenthPlayer]
 
 
 // Part 2: Adding empty dictionaries for each team.
 
-var teamSharks = [String:Any]()
-var teamDragons = [String:Any]()
-var teamRaptors = [String:Any]()
+var teamSharks = [[String:Any]]()
+var teamDragons = [[String:Any]]()
+var teamRaptors = [[String:Any]]()
+
+// Part 2: Adding empty dictionaries for experienced/inexperienced players
+
+var experiencedPlayers = [[String:Any]]()
+var inexperiencedPlayers = [[String:Any]]()
+
+// Part 2: Sorting players based on experience
+
+for player in players {
+    if (player["Experience"] as! Bool) == true {
+        experiencedPlayers.append(player)
+    } else {
+        inexperiencedPlayers.append(player)
+    }
+}
