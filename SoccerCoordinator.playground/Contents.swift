@@ -199,3 +199,12 @@ for player in inexperiencedPlayers {
     }
 }
 
+
+// Part 3: Creating letters and notifying guardians. Adding dates of practice and empty dictionary for letters.
+
+let dragonsPracticeDate = "March 17, 1pm"
+let sharksPracticeDate = "March 17, 3pm"
+let raptorsPracticeDate = "March 18, 1pm"
+
+var letters = [String]()
+
