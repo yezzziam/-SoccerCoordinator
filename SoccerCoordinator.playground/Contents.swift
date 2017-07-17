@@ -174,3 +174,28 @@ for player in players {
         inexperiencedPlayers.append(player)
     }
 }
+
+// Part 2: Sorting and adding experienced players into 3 teams equally
+
+for player in experiencedPlayers {
+    if (teamSharks.count <= teamRaptors.count && teamSharks.count <= teamDragons.count) {
+        teamSharks.append(player)
+    } else if(teamDragons.count <= teamRaptors.count) {
+        teamDragons.append(player)
+    } else {
+        teamRaptors.append(player)
+    }
+}
+
+// Part 2: Sorting and adding inexperienced players into 3 teams equally
+
+for player in inexperiencedPlayers {
+    if (teamSharks.count <= teamRaptors.count && teamSharks.count <= teamDragons.count) {
+        teamSharks.append(player)
+    } else if(teamDragons.count <= teamRaptors.count) {
+        teamDragons.append(player)
+    } else {
+        teamRaptors.append(player)
+    }
+}
+
