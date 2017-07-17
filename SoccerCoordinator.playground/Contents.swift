@@ -149,18 +149,18 @@ let eighteenthPlayer: [String: Any] = [
     "Guardians": "Hyman and Rachel Krustofski"
 ]
 
-// Part 1: Combined all players info into one dictionary
+// Part 1: Combined all players info into one array
 
 let players = [firstPlayer, secondPlayer, thirdPlayer, fourthPlayer, fifthPlayer, sixthPlayer, seventhPlayer, eighthPlayer, ninethPlayer, tenthPlayer, eleventhPlayer, twelvethPlayer, thirteenthPlayer, fourteenthPlayer, fifteenthPlayer, sixteenthPlayer, seventeenthPlayer, eighteenthPlayer]
 
 
-// Part 2: Adding empty dictionaries for each team.
+// Part 2: Adding empty array for each team.
 
 var teamSharks = [[String:Any]]()
 var teamDragons = [[String:Any]]()
 var teamRaptors = [[String:Any]]()
 
-// Part 2: Adding empty dictionaries for experienced/inexperienced players
+// Part 2: Adding empty arrays for experienced/inexperienced players
 
 var experiencedPlayers = [[String:Any]]()
 var inexperiencedPlayers = [[String:Any]]()
@@ -200,7 +200,7 @@ for player in inexperiencedPlayers {
 }
 
 
-// Part 3: Creating letters and notifying guardians. Adding dates of practice and empty dictionary for letters.
+// Part 3: Creating letters and notifying guardians. Adding dates of practice and empty array for letters.
 
 let dragonsPracticeDate = "March 17, 1pm"
 let sharksPracticeDate = "March 17, 3pm"
@@ -208,3 +208,21 @@ let raptorsPracticeDate = "March 18, 1pm"
 
 var letters = [String]()
 
+// Part 3: Creating letters and notifying guardians.
+
+for player in teamDragons {
+    letters.append("Dear \(player["Guardians"] as! String)! We're happy to notice you that \(player["Name"] as! String) has been accepted to Team Dragons! Your first practice starts at \(dragonsPracticeDate).")
+}
+
+for player in teamSharks {
+    letters.append("Dear \(player["Guardians"] as! String)! We're happy to notice you that \(player["Name"] as! String) has been accepted to Team Sharks! Your first practice starts at \(sharksPracticeDate).")
+}
+
+for player in teamRaptors {
+    letters.append("Dear \(player["Guardians"] as! String)! We're happy to notice you that \(player["Name"] as! String) has been accepted to Team Raptors! Your first practice starts at \(raptorsPracticeDate).")
+}
+
+for letter in letters {
+    print(letter)
+    
+}
